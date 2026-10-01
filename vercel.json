@@ -1,0 +1,14 @@
+{
+  "builds": [
+    {
+      "src": "powerk.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "powerk.py"
+    }
+  ]
+}
